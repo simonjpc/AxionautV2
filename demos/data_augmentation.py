@@ -98,3 +98,4 @@ if selected_demo == demos[2]:
             counts_balanced = all_samples.direction.value_counts()
             st.write("Car wheel data balanced distribution")
             st.bar_chart(counts_balanced, width=100)
+            
